@@ -26,9 +26,10 @@
 # numeric_value = 10
 # print("the first value of a is: --> ",numeric_value) 
 # fruit_name = "Apple" 
-# print("the second value of a is: -->",fruit_name) 
+# # print("the second value of a is: -->",fruit_name) 
 
-first_name = input("what is your firstname?")
-second_name = input("what is your secondname?") 
-print("Your fullname is "+ first_name + " " + second_name) 
-# blah
+# first_name = input("what is your firstname?")
+# second_name = input("what is your secondname?") 
+# print("Your fullname is "+ first_name + " " + second_name) 
+# # blah
+# print("terotauko\b\b\b\b\bchin")
