@@ -15,28 +15,71 @@
 # # print(example.lower())
 # # print(example.upper())
 # # print(example.title())
-# # # print(example.count("p")) #----> kati ota cha bhanha 
+# # # # print(example.count("p")) #----> kati ota cha bhanha 
 
-name,character = input("Input your full name and character").split(",")
+# name,character = input("Input your full name and character").split(",")
 
-# print("Your fullname is " + name + " the number of characters are " + str(name.lower().count(character)))
+# # print("Your fullname is " + name + " the number of characters are " + str(name.lower().count(character)))
+# # # '''
+# # # OR
+
 # # '''
-# # OR
-
-# '''
-char_count = name.lower().count(character.strip())
+# char_count = name.lower().count(character.strip())
 
 # print("Your fullname is {} and '{}' char count is {}".format(name,character,char_count))  #This is added in python 3
 
-# print("Your fullname is {name} and '{character}' char count is {char_count}") #this was added in python 3.6
+# # print("Your fullname is {name} and '{character}' char count is {char_count}") #this was added in python 3.6
 
-print(f"Your fullname is {name} and '{character}' char count is {char_count}")
+# print(f"Your fullname is {name} and '{character}' char count is {char_count}")
 
 '''
 space problems
 
 '''
 
+
+
 # spaces_prob = "    Rushav    "
 # stars = "********"
 # print(stars+spaces_prob.strip()+stars) 
+
+# solved_problem = spaces_prob.replace(" ","")
+
+# print(f"The solve of space problem is {solved_problem}")
+
+
+
+#Finding and replacing a string 
+
+'''
+replace_example = "Kritika is beautiful and she is out standing "
+print(replace_example.replace("is","was",1))
+is_pos1= replace_example.find("is")
+print(replace_example.find("is",is_pos1+1))
+'''
+
+#Center() Method 
+
+# example2 = "python"
+# print(example2.center(4+6+4,"*"))
+'''
+name = input("Enter your name")
+sol = len(name)
+print(name.center(5+sol+5,"*"))
+'''
+
+
+
+## String are immutable and assignment operator 
+
+'''
+example3 = "any" 
+example3[1] = "N"  #can't do because of immutable 
+
+'''
+
+# example = example + "body"    ra    example += "body" garnu eutai ho 
+
+
+
+
