@@ -25,7 +25,7 @@
 # name = input("Input your name")
 # i = 0 
 # while i < len(name): 
-#     print(f"{name[i]}: {name.lower().count(name[i].lower())}")
+    #print(f"{name[i]}: {name.lower().count(name[i].lower())}")
 #     i += 1
  
 
