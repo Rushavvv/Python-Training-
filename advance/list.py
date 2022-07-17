@@ -138,6 +138,7 @@ def counter(daf):
 
 uwu = counter(wau) 
 print(uwu) 
+p = 2
 
 
 
