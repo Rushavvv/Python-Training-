@@ -41,6 +41,9 @@ if value < mid_pointer:
     
 '''
 
+from curses import baudrate
+
+
 new_tuple = tuple(range(1,11))
 print(new_tuple)
 
@@ -48,3 +51,5 @@ create_list_from_tuple = list(new_tuple)
 print(f"{create_list_from_tuple}and its type is: {type(create_list_from_tuple)}")
 create_string_from_tuple = str(new_tuple)
 print(f"The string is: {create_string_from_tuple} and its type is: {type(create_string_from_tuple)}")
+a = 10 
+print(a)
